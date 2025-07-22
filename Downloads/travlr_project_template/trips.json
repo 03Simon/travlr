@@ -1,5 +1,20 @@
 [
-    { "name": "Beachside Bliss", "destination": "Bahamas" },
-    { "name": "Mountain Escape", "destination": "Swiss Alps" },
-    { "name": "City Adventure", "destination": "New York City" }
+  {
+    "title": "Beachside Bliss",
+    "description": "Enjoy sunny beaches and ocean views.",
+    "price": 599,
+    "location": "Bahamas"
+  },
+  {
+    "title": "Mountain Escape",
+    "description": "Experience the serenity of mountain life.",
+    "price": 499,
+    "location": "Swiss Alps"
+  },
+  {
+    "title": "City Adventure",
+    "description": "Explore bustling streets and nightlife.",
+    "price": 699,
+    "location": "New York City"
+  }
 ]
