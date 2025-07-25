@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Travlr Trips</title>
+</head>
+<body>
+    <h1>Available Trips</h1>
+    <ul>
+        {{#each trips}}
+            <li>
+                <h2>{{title}}</h2>
+                <p>{{description}}</p>
+                <p><strong>Price:</strong> ${{price}}</p>
+                <p><strong>Location:</strong> {{location}}</p>
+            </li>
+        {{/each}}
+    </ul>
+</body>
+</html>
